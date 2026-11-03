@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1793655051 source:c:\users\games\desktop\ena\test2\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1793707197 source:c:\users\games\desktop\codeblocks\test2\main.c
+	<stdio.h>
+	<stdlib.h>
+
