@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <windows.h>
 
 int main()
 {
@@ -7,9 +8,11 @@ int main()
     int score;
     float height;
     char gender;
-
-    printf("Welcome to Testing University application page!\n");
-    printf("Please state your age: ");
+    printf("========================================================================================================================\n\n");
+    printf("                                      Welcome to Testing University application page!\n\n");
+    printf("========================================================================================================================\n\n");
+    Sleep(1000);
+    printf("                                                    Please state your age: \n");
     scanf("%d", &age);
 
     if(age >= 18){
@@ -65,8 +68,14 @@ int main()
 
 
 
-    else printf("Your age does not much the legal limit to submit and application on our University!\n Session Terminated!");
-
+    else{
+        printf("                                                         Processing...\n\n ");
+        Sleep(1000);
+        printf("========================================================================================================================\n\n");
+        printf("                          Your age does not much the legal limit to submit an application in our University!\n\n");
+        printf("                                                      Session Terminated!\n");
+        printf("========================================================================================================================\n\n");
+}
     return 0;
 
 }
